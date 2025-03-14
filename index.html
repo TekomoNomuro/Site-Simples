@@ -36,7 +36,10 @@
         /*Função JavaScript para mudar a cor de fundo da página*/
         function mudarcor(){
             //Gerar uma cor aleatória
-            var
+            var corAleatoria = '#' + Math.floor(Math.random()*16777215).toString(16);
+            // Aplica a nova cor ao fundo da página
+            document.body.style.backgroundColor=corAleatoria;
+
         }
 
     </script>
